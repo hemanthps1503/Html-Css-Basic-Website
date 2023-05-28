@@ -1,0 +1,166 @@
+body{
+    font:Arial,Helvetica,sans-serif
+}
+#container{
+    width: 1050px;
+    border: 1.5px solid rgb(255, 254, 254);
+    margin:0 auto ;
+}
+#header{
+    height: 100px;
+    padding-inline-start: 10px 0;
+}
+#brand{
+    float: left;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+#searchbox{
+    float: right;
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    background: linear-gradient(#E4F2B9, #B7E953);
+   
+}
+.search{
+    float: right;
+    padding:5px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+    border: 1px solid #DCD5E1;
+    
+    
+    
+}
+.text{
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+    color:rgb(18, 14, 87) ;
+    border-radius: 7px;
+    border-color: #B7E953;
+    background: white url(images/LogoMakr-5wvCJZ.png) right center no-repeat ;
+    border: 1px solid greenyellow;
+
+}
+.clear{
+    clear: both;
+}
+#Menu{
+    height: 70px;
+    background: linear-gradient(#F8F594,#D5D533);
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+}
+#Menu ul li{
+    float: left;
+    padding: 0 10px;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+#Menu ul li:last-child{
+    border-right: none;
+}
+#Menu ul li a{
+    text-decoration: none;
+    text-transform:uppercase ;
+    font-size: 17px;
+    color:#5d12e7;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+#Menu ul li a:hover,#Menu ul li a.active{
+    font-size:20px ;
+    font-weight: bold;
+    color: #B314DB;
+}
+#introduction{
+    background: linear-gradient(#E5F2BB,#B7E952);
+    height: 250px;
+    padding: 30px;
+    margin-top: 18px;
+}
+#introduction h3{
+    font-size: 40px;
+    color:rgb(57, 118, 31) ;
+}
+#introduction p{
+    font-size:25px ;
+}
+.sidebar{
+    height: 500px;
+    width:450px;
+    border: 1px solid rgb(91, 194, 222);
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 30px;
+    
+}
+
+.sidebar h3{
+    font-size: 40px;
+   
+    color: #861BBF;
+
+}
+.sidebar ul{
+   padding-top: 8px;
+   
+
+}
+#leftsidebar ul li{
+    
+    
+    list-style: url(images/arrow.png);
+    padding: 2px 0 4px 10px;
+}
+
+#rightsidebar ul li{
+    padding: 17px 0 17px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+#leftsidebar{
+    float: left;   
+}
+
+#rightsidebar{
+    float: right;
+}
+
+.footer{
+    height: 75px;
+    background: linear-gradient(#F6F390,#D5D533);
+    padding-left: 18px;
+    padding-top: 15px;
+    margin-top: 5px;
+
+}
+   
+    
+    
